@@ -13,6 +13,20 @@
             "riesgo": false,
             "nota1": 85,
             "nota2": 90
+        },
+        {
+            "nombres": "andres",
+            "documento": "123",
+            "Apellidos": "df",
+            "direccion": "gfg",
+            "Edad": 45,
+            "Acudiente": "dfgh",
+            "celular": "dfgh",
+            "telefono": "dfgh",
+            "estado": "cursando",
+            "riesgo": false,
+            "nota1": 0,
+            "nota2": 0
         }
     ]
 }

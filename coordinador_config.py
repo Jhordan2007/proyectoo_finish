@@ -23,7 +23,7 @@ def Aprobo_o_no(datos_estudiantes_Cursando):
             print(f"-->{o}")
         ruta = input("A que ruta pertenece?").lower()
         for u in range(len(datos_estudiantes_Cursando[ruta])):
-            print(u)
+            print("la nota definitiva de estudiante es: ",datos_estudiantes_Cursando[ruta][u]["notaf"])
             if doc  == datos_estudiantes_Cursando[ruta][u]["documento"]:
                 print("usuario encontrado")
                 test = input("Desea aprobarlo, condicional, no aprobarlo? [Si][Condicional][No]").lower()
@@ -69,19 +69,18 @@ def Aprobo_o_no(datos_estudiantes_Cursando):
     except Exception:
         print("Hubo un error")
             
-def agregar_ruta(datos):
+def agregar_ruta(datos_estudiantes_Cursando):
     try:
         rutas=[]
-        ruta= input("Ingrese la ruta que desea agregar y agrega el nombre del profesor de esta ruta, ejemplo¨: [JAVA-ARLEYM]")
-        for i in range(len(datos_estudiantes_Cursando)):
-
+        ruta= input("Ingrese la ruta que desea agregar y agrega el nombre del profesor de esta ruta, ejemplo¨: [JAVA-ARLEYM]:")
+        for i in datos_estudiantes_Cursando:
             if ruta in i:
                 print("esite")
             
             else:
-                datos[ruta]=rutas
-                guardar_datos(datos,RUTA_DATOS_ESTUDIANTESCURS)
-        print(datos)
+                datos_estudiantes_Cursando[ruta]=rutas
+                guardar_datos(datos_estudiantes_Cursando,RUTA_DATOS_ESTUDIANTESCURS)
+        print(datos_estudiantes_Cursando)
     except Exception:
         print("hubo un error")
 
@@ -113,9 +112,10 @@ def usuario_pendiente(datos_estudiantes_inscritos):
             usuario["nota1"] = datos_estudiantes_inscritos["users"][i]["nota1"]
             usuario["nota2"] = datos_estudiantes_inscritos["users"][i]["nota2"]
             usuario["notaf"] = datos_estudiantes_inscritos["users"][i]["notaf"]
-            usuario["inicio"] = input("Ingresa el dia de inicio de este estudiante").lower()
-            usuario["horario"] = input("Ingresa el horario que va tener este estudiante [Tarde][Mañana]").lower()
-            usuario["finalizacion"]=input("ingresa el dia de finalizacion del estudiante").lower()
+            usuario["inicio"] = input("Ingresa el dia de inicio de este estudiante: ").lower()
+            usuario["horario"] = input("Ingresa el horario que va tener este estudiante [Tarde][Mañana]: ").lower()
+            usuario["finalizacion"]=input("ingresa el dia de finalizacion del estudiante: ").lower()
+            usuario["Salon"]=input("Ingresa el salon donde deseas que este el estudiante: ").lower()
             usuario["estrellas"]=""
         else:
             print("usuario o ruta erronea")
@@ -132,7 +132,7 @@ def editar_usuarios(datos_estudiantes_Cursando):
     try:
         print(datos_estudiantes_Cursando)
         doc= input("Ingrese el numero del documento del usuario")
-        ruta = input("A que ruta pertenece? [Notejs][notecore][java]").lower()
+        ruta = input("A que ruta pertenece? ").lower()
         for i in range(len(datos_estudiantes_Cursando[ruta])):
             if doc in datos_estudiantes_Cursando[ruta][i]["documento"]:
                 print("usuario encontrado")

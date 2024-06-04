@@ -9,7 +9,7 @@ def menu_trainer():
             print("----------------------------------------------------------------")
             print("Bienvenido al menu Trainer")
             print("1. Para ingresar a tu perfil como trainer: ")
-            print("2. Para premiar a estudia")
+            print("2. Para premiar a estudiante")
             print("0. Salir ")
             print("----------------------------------------------------------------")
             opc = int(input("Ingrese la opciòn que deseas--> "))
@@ -23,7 +23,7 @@ def menu_trainer():
         print("hubo un error")
 
 def premio(datos_estudiantes_Cursando):
-     try:
+    try:
         while True:
                 ruta=input("ingresa la ruta contraseña a la que deseas entrar: ").lower()
                 for i in datos_estudiantes_Cursando:
@@ -38,11 +38,14 @@ def premio(datos_estudiantes_Cursando):
                         print("Tu nota de pratica es: ", datos_estudiantes_Cursando[ruta][o]["nota2"])
                         print("Tu nota final es: ", datos_estudiantes_Cursando[ruta][o]["notaf"])
                         print(datos_estudiantes_Cursando[ruta][o]["estrellas"])
-                        datos_estudiantes_Cursando[ruta][o]["estrellas"]=input("Ingresa las estrellas que deseas agregarle. ESTRELLA-->*")
+                        datos_estudiantes_Cursando[ruta][o]["estrellas"]=input("Ingresa las estrellas que deseas agregarle. ESTRELLA--> [*] ")
                         guardar_datos(datos_estudiantes_Cursando,RUTA_DATOS_ESTUDIANTESCURS)
-                        break
-     except Exception:
+                break
+    except Exception:
         print("Hubo un error")
+        
+        
+
 def submenu_trainer(datos_estudiantes_Cursando):
     try:
         while True:

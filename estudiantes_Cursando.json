@@ -1,25 +1,26 @@
 {
     "notejs-arleym": [],
-    "java-juanmarino": [
+    "java-juanmarino": [],
+    "notecore-carloscotes": [],
+    "tomate": [
         {
-            "nombres": "mario",
-            "documento": "123",
-            "Apellidos": "sdf",
-            "direccion": "sdf",
-            "Edad": "sdf",
-            "Acudiente": "sdf",
-            "celular": "sdf",
-            "telefono": "sdf",
+            "nombres": "dfghj",
+            "documento": "1020",
+            "Apellidos": "sdfgh",
+            "direccion": "fgh",
+            "Edad": "55",
+            "Acudiente": "fg",
+            "celular": "55",
+            "telefono": "44",
             "estado": "no",
             "riesgo": false,
-            "nota1": 82,
-            "nota2": 94,
-            "notaf": 88.0,
+            "nota1": 90,
+            "nota2": 79,
+            "notaf": 84.5,
             "inicio": "20",
             "horario": "tarde",
             "finalizacion": "30",
             "estrellas": "**"
         }
-    ],
-    "notecore-carloscotes": []
+    ]
 }

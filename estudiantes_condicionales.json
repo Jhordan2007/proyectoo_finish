@@ -42,6 +42,20 @@
             "riesgo": false,
             "nota1": 0,
             "nota2": 0
+        },
+        {
+            "nombres": "juan",
+            "documento": "1097",
+            "Apellidos": "andre",
+            "direccion": "asd",
+            "Edad": "23",
+            "Acudiente": "andrea",
+            "celular": "123",
+            "telefono": "123",
+            "estado": "no",
+            "riesgo": false,
+            "nota1": 0,
+            "nota2": 0
         }
     ]
 }
