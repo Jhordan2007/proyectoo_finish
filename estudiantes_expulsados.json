@@ -1,0 +1,18 @@
+{
+    "expulsados": [
+        {
+            "nombres": "ARLEY",
+            "documento": "1097",
+            "Apellidos": "as",
+            "direccion": "as",
+            "Edad": "12",
+            "Acudiente": "as",
+            "celular": "12",
+            "telefono": "12",
+            "estado": "si",
+            "riesgo": false,
+            "nota1": 85,
+            "nota2": 90
+        }
+    ]
+}

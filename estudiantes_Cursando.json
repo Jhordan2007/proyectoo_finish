@@ -1,0 +1,25 @@
+{
+    "notejs-arleym": [],
+    "java-juanmarino": [
+        {
+            "nombres": "mario",
+            "documento": "123",
+            "Apellidos": "sdf",
+            "direccion": "sdf",
+            "Edad": "sdf",
+            "Acudiente": "sdf",
+            "celular": "sdf",
+            "telefono": "sdf",
+            "estado": "no",
+            "riesgo": false,
+            "nota1": 82,
+            "nota2": 94,
+            "notaf": 88.0,
+            "inicio": "20",
+            "horario": "tarde",
+            "finalizacion": "30",
+            "estrellas": "**"
+        }
+    ],
+    "notecore-carloscotes": []
+}

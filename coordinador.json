@@ -1,0 +1,59 @@
+{ "coordinador":{
+            "rutas":{
+                "Ruta NodeJS":{
+                    "juan mariño":{
+                    "estudiantes": [{
+                        "1097495965":{
+                            "nombres": "jhordan Fabian",
+                            "apellidos": "Ramirez Estupiñan",
+                            "Direcciòn":"calle 15c #13 a 27",
+                            "Edad": 17,
+                            "acudiente":"Liz monica",
+                            "celular":"3184354262",
+                            "telefono fijo":"656864",
+                            "Estado":   "cursando",
+                            "riesgo": false
+                        }
+                    }]}
+
+                },
+
+                "Ruta Java":{
+                    "Adrian sanchez":{
+                        "estudiantes": [{
+                            "123456789":{
+                                "nombres": "luis anres",
+                                "apellidos": "felipe rojas",
+                                "Direcciòn":"villa 44c #33 a 27",
+                                "Edad": 18,
+                                "acudiente":"carmen",
+                                "celular":"3332222",
+                                "telefono fijo":"345678",
+                                "Estado":   "cursando",
+                                "riesgo": false
+                            }
+                        }]}
+
+                },
+                "Ruta NetCore":{
+                    "julian piñeros":{
+                        "estudiantes": [{
+                            "987654321":{
+                                "nombres": "fabia armenia",
+                                "apellidos": "bla bla",
+                                "Direcciòn":"villa 12c #13 a 67",
+                                "Edad": 20,
+                                "acudiente":"maria",
+                                "celular":"12344556",
+                                "telefono fijo":"46532",
+                                "Estado":   "cursandoo",
+                                "riesgo": false
+                            }
+                        }]}
+
+                }
+            }
+
+        }}
+
+

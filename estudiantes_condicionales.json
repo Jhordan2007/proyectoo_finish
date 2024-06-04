@@ -1,0 +1,47 @@
+{
+    "condicionales": [
+        {
+            "nombres": "dasd",
+            "documento": "123456",
+            "Apellidos": "das",
+            "direccion": "das",
+            "Edad": "12",
+            "Acudiente": "asd",
+            "celular": "12",
+            "telefono": "12",
+            "estado": "no",
+            "riesgo": false,
+            "aprobo": "",
+            "nota1": 0,
+            "nota2": 0
+        },
+        {
+            "nombres": "asda",
+            "documento": "12",
+            "Apellidos": "ads",
+            "direccion": "das",
+            "Edad": "123",
+            "Acudiente": "das",
+            "celular": "123",
+            "telefono": "123",
+            "estado": "si",
+            "riesgo": false,
+            "nota1": 0,
+            "nota2": 0
+        },
+        {
+            "nombres": "arley",
+            "documento": "1234",
+            "Apellidos": "sdfg",
+            "direccion": "sdfgh",
+            "Edad": "3456",
+            "Acudiente": "dfgh",
+            "celular": "34567",
+            "telefono": "3456",
+            "estado": "si",
+            "riesgo": false,
+            "nota1": 0,
+            "nota2": 0
+        }
+    ]
+}
