@@ -16,7 +16,7 @@ def registrar_usuario(datos_estudiantes_inscritos):
             Usuario["Acudiente"] = input("ingrese su acudiente: ")
             Usuario["celular"] = input("ingrese su celular: ")
             Usuario["telefono"] = input("ingrese su telefono: ")
-            Usuario["estado"] = "no"
+            Usuario["estado"] = "inscrito"
             Usuario["riesgo"] = False
             Usuario["aprobo"] = ""
             Usuario["nota1"] = 0

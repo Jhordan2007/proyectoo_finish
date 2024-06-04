@@ -39,7 +39,7 @@ def Aprobo_o_no(datos_estudiantes_Cursando):
                             usuario["Acudiente"] = datos_estudiantes_Cursando[ruta][i]["Acudiente"]
                             usuario["celular"] = datos_estudiantes_Cursando[ruta][i]["celular"]
                             usuario["telefono"] = datos_estudiantes_Cursando[ruta][i]["telefono"]
-                            usuario["estado"] = datos_estudiantes_Cursando[ruta][i]["estado"]
+                            usuario["estado"] = "expulsado"
                             usuario["riesgo"] = datos_estudiantes_Cursando[ruta][i]["riesgo"]
                             usuario["nota1"] = datos_estudiantes_Cursando[ruta][i]["nota1"]
                             usuario["nota2"] = datos_estudiantes_Cursando[ruta][i]["nota2"]
@@ -57,8 +57,8 @@ def Aprobo_o_no(datos_estudiantes_Cursando):
                             usuario["Acudiente"] = datos_estudiantes_Cursando[ruta][i]["Acudiente"]
                             usuario["celular"] = datos_estudiantes_Cursando[ruta][i]["celular"]
                             usuario["telefono"] = datos_estudiantes_Cursando[ruta][i]["telefono"]
-                            usuario["estado"] = datos_estudiantes_Cursando[ruta][i]["estado"]
-                            usuario["riesgo"] = datos_estudiantes_Cursando[ruta][i]["riesgo"]
+                            usuario["estado"] = "condicional"
+                            usuario["riesgo"] = True
                             usuario["nota1"] = datos_estudiantes_Cursando[ruta][i]["nota1"]
                             usuario["nota2"] = datos_estudiantes_Cursando[ruta][i]["nota2"]
                             datos_estudiantes_condicionales["condicionales"].append(usuario)
@@ -107,7 +107,7 @@ def usuario_pendiente(datos_estudiantes_inscritos):
             usuario["Acudiente"] = datos_estudiantes_inscritos["users"][i]["Acudiente"]
             usuario["celular"] = datos_estudiantes_inscritos["users"][i]["celular"]
             usuario["telefono"] = datos_estudiantes_inscritos["users"][i]["telefono"]
-            usuario["estado"] = datos_estudiantes_inscritos["users"][i]["estado"]
+            usuario["estado"] = "cursando"
             usuario["riesgo"] = datos_estudiantes_inscritos["users"][i]["riesgo"]
             usuario["nota1"] = datos_estudiantes_inscritos["users"][i]["nota1"]
             usuario["nota2"] = datos_estudiantes_inscritos["users"][i]["nota2"]
