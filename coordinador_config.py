@@ -1,6 +1,6 @@
-import json
-from datos import *
-from registrar_camper import*
+import json #IMPORTAMOS O TRAEMOS PARA PODER TOMAR LOS JSON QUE NECESITEMOS
+from datos import * #Importamos los datos de cargar_datos y guardar_datos
+from registrar_camper import* #importamos el registrar_camper que es donde esta las funciones para reigstrar al camper 
 RUTA_DATOS_ESTUDIANTESEXP = "estudiantes_expulsados.json"
 datos_estudiantes_expulsados = cargar_datos(RUTA_DATOS_ESTUDIANTESEXP)
 
